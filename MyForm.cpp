@@ -64,7 +64,6 @@ System::Void Project1::MyForm::button3_Click(System::Object^ sender, System::Eve
 		}
 	}
 
-
 	if (sizeHigh == 0)
 	{
 		MessageBox::Show("Очередь Round-robin пуста");
@@ -150,7 +149,6 @@ System::Void Project1::MyForm::button3_Click(System::Object^ sender, System::Eve
 					continue;
 				}
 			}
-
 		}
 
 		dataGridView1->RowCount = sizeHigh;
